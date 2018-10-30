@@ -1,21 +1,28 @@
-1.What is include?  (It is used to include header files by the C-preprocesor)
-2.What is # and what does it do?  (It is a directive to the C-preprocessor.It tells the preprocessor to include certain contents of the header.)
-3.Why is < used?  (It is the syntax used to write the program)
+.What is include?  (Itis used to include header files by the C-preprocesor)
+2.What is # and what does it do?  (It is a directive to the C-preprocessor.It tells the preprocessor to include certain contents of the headers.)
+3.Why is < used?  (It is the notation showing the header file to be included.)
 4.What is stdio.h?  (It is the name of the header file)
 5.What does .h do?  (It represents that the particular file is a header file)
-6.Why is it closed with >?  (It is the syntax used to write the program).
-7.What is int?  (It represents that the function main returns an integer type value).
-8.What is main? (It is a function that holds the main building blocks of a program).
-9.Why is only 'main' used?  (It is the function)
-10What is //?(Shows the start of a comment)
-12.What will happen if / is used instead of //?(Shows a syntax error)
-13.What is a function?(Perfoms a defined funtion to give desired output)
-14.What does 'function begins program execution' mean?(It means the function starts performing in the defined manner).
-15.What is void?(A keyword which in this case says funcion main does not have use any arguments)
-16.Why is void enclosed in ()?(It is 
-17.Why is <> used in the first line but () used in the second statement?
+6.Why is it closed with >?  (It is used to end the statement which includes the header file).
+7.What is int?  (It represents integer type value).
+8.What is main? (It is the main building block of a program).
+9.Why is only 'main' used?  (It is a predefined keyword.) 
+11.What is //?(Marks start of comment line)
+12.What will happen if / is used instead of //?(A syntax error is produced)
+13.What is a function?(It perfoms the desired work and produce an output).
+14.What does 'function begins program execution' mean?(Marks the start performing the function)
+15.What is void?(It is a keyword stating the function does not take any parameters) 
+16.Why is void enclosed in (_)?(It is the syntax of C)
+17.Why is <> used in the first line but () used in the second statement?(It is the syntax. Different brackets are used for different purposes)
 18.What is {?
-19.Why is { used? (Marks  the beginning of a function body).
-20.Why are there different types of brackets used for different lines?
-21.Why are particular words in the program displayed in different colours?
-22. Why are these words special?
+19.Why is { used?(Marks the start of definition of a function)
+22. Why are these words special?(They Perform certain function).
+
+
+
+What is a variable?
+   An entity which holds a particular value.
+What is the type of a variable?
+   The type of information the vaiable holds, Eg. integer, charecter type information.
+What are the basic types of variables in C?
+   
