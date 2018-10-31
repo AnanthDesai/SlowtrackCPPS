@@ -1,4 +1,4 @@
-.What is include?  (Itis used to include header files by the C-preprocesor)
+1.What is include?  (Itis used to include header files by the C-preprocesor)
 2.What is # and what does it do?  (It is a directive to the C-preprocessor.It tells the preprocessor to include certain contents of the headers.)
 3.Why is < used?  (It is the notation showing the header file to be included.)
 4.What is stdio.h?  (It is the name of the header file)
@@ -7,14 +7,13 @@
 7.What is int?  (It represents integer type value).
 8.What is main? (It is the main building block of a program).
 9.Why is only 'main' used?  (It is a predefined keyword.) 
-11.What is //?(Marks start of comment line)
-12.What will happen if / is used instead of //?(A syntax error is produced)
-13.What is a function?(It perfoms the desired work and produce an output).
+10.What is //?(Marks start of comment line)
+11.What will happen if / is used instead of //?(A syntax error is produced)
+12.What is a function?(It perfoms the desired work and produce an output).
 14.What does 'function begins program execution' mean?(Marks the start performing the function)
 15.What is void?(It is a keyword stating the function does not take any parameters) 
 16.Why is void enclosed in (_)?(It is the syntax of C)
 17.Why is <> used in the first line but () used in the second statement?(It is the syntax. Different brackets are used for different purposes)
-18.What is {?
 19.Why is { used?(Marks the start of definition of a function)
 22. Why are these words special?(They Perform certain function).
 
@@ -25,4 +24,4 @@ What is a variable?
 What is the type of a variable?
    The type of information the vaiable holds, Eg. integer, charecter type information.
 What are the basic types of variables in C?
-   Integer, Charecte,  float, etc.
+   Integer, Charecter, float etc.
