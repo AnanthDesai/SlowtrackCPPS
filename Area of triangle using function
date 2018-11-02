@@ -1,0 +1,28 @@
+#include<stdio.h>
+ /*Main() starts*/
+ 
+ int areaFunction(int,int);
+ int main()
+  {
+      int base, height, area;//variables for base, height and area.
+      
+      printf("Enter value for the base \n");//Messsage displayed to the user
+       scanf("%d",&base);//Input
+       
+      printf("Enter value for the height\n");
+       scanf("%d",&height);
+       
+      area=areaFunction(base,height); //calculating  area
+      
+      
+      printf("The area of the triangle is: %d",area);  //Output
+      return 0;
+  } //End of function main
+  
+ int areaFunction(int base,int height)
+  {
+     int area;
+     area = base*height*0.5;
+     return area;
+  }
+
