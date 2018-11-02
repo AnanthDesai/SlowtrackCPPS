@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+typedef struct  triangle
+{
+    int base;
+    int height;
+}tri;
+ int areaFunction(tri t)
+  {
+    int area;
+    area = 0.5*t.base*t.height;
+    return area;
+  }
+  
+  
+void main()
+ {
+     tri t;
+     printf("Enter the base of the triangle:");
+     scanf("%d",&t.base);
+     
+     printf("Enter the height of the triangle:");
+     scanf("%d",&t.height);
+     
+     int area;
+     area = areaFunction(t);
+     printf("Area: %d",area);
+ }
