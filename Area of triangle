@@ -5,13 +5,14 @@
       int base, height, area;//variables for base, height and area.
       
       printf("Enter value for the base \n");//Messsage displayed to the user
-       scanf("%d\n",&base);//Input
+       scanf("%d",&base);//Input
        
       printf("Enter value for the height\n");
-       scanf("%d\n",&height);
+       scanf("%d",&height);
        
       area = base * height; //calculating  area
       
       printf("The area of the triangle is: %d",area);  //Output
       return 0;
   } //End of function main
+
