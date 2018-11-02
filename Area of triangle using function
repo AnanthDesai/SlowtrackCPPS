@@ -1,5 +1,4 @@
 #include<stdio.h>
- /*Main() starts*/
  
  int areaFunction(int,int);
  int main()
