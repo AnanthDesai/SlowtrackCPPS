@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int sumArray(int*, int);
+int sumArray(int array[], int n);
 
 void main()
  {
