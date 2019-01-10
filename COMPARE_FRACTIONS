@@ -1,0 +1,49 @@
+#include<stdio.h>
+
+typedef struct fraction{
+  int *num;
+  int *den;
+ }frac;
+
+int input(frac* f1,frac* f2)
+ {
+  printf("Enter first fraction:\n");
+  scanf("%d\n%d",*&f1->num,*&f1->den);
+  printf("Enter second fraction:\n");
+  scanf("%d\n%d\n",*&f1->num,*&f1->den);
+  
+  /*   printf("%d/%d\n",*f1.num,*f2.den);
+  printf("%d/%d",*f2.num,*f2.den);              */
+ }
+
+int compute(frac* f1,frac* f2)
+ {
+  int n1= (*f1->num/(*f1->den));
+  int n2= (*f2->num/(*f2->den));
+  if(n1>n2)
+   return 3;
+  else if(n1==n2)
+   return 0;
+  else 
+   return 2;
+ }
+
+int output(int max)
+ {
+  if(max==0)
+   printf("The numbers are equal!");
+  else if(max==3)
+   printf("Fraction one is larger");
+  else
+   printf("fraction two is larger");
+ }
+
+int main(void)
+ {
+  frac f1,f2;
+  input(&f1,&f2); 
+  int max=compute(&f1,&f2);
+  output(max);
+  return 0;
+ } 
+  
